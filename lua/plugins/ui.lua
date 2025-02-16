@@ -91,4 +91,12 @@ return {
       }
     end,
   },
+
+  -- lsp border
+  {
+    "neovim/nvim-lspconfig",
+    opts = function(_, opts)
+      opts.border = "rounded"
+    end,
+  },
 }
